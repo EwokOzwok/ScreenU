@@ -5,7 +5,7 @@ account: ualbanyprojectaccess
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 11723636
-bundleId: 8477962
+bundleId: 8477973
 url: https://ualbanyprojectaccess.shinyapps.io/ScreenU/
 version: 1
 asMultiple: FALSE
