@@ -34,12 +34,13 @@ app_ui <- function(request) {
                 intensity = 5,
                 hover = TRUE,
                 f7Card(
-                  f7Align(h2("Click to start a screener"), side = c("center")),
+                  f7Align(h2("Choose a screener"), side = c("center")),
                   br(),
                   f7Segment(container = c("segment"),
-                  f7Button("alc","Alcohol Use Screener", href = "https://app.screenu.org/screening/6ba7997a-d6d2-492c-8a2b-bb2841bd014d?demo"),
-                  f7Button("cannabis", "Cannabis Use Screener", href = "https://app.screenu.org/screening/ea3784d1-ddfc-4171-a59e-26ed55740941?demo"),
-                  f7Button("rx", "Prescription Drug Screener", "href = https://app.screenu.org/screening/5af1f17d-4277-436c-8ebc-c7936fb761c9?demo")),
+                  f7Button(label = "Alcohol", href = "https://app.screenu.org/screening/6ba7997a-d6d2-492c-8a2b-bb2841bd014d?demo"),
+                  f7Button(label = "Cannabis", href = "https://app.screenu.org/screening/ea3784d1-ddfc-4171-a59e-26ed55740941?demo"),
+                  f7Button(label = "Rx Drugs", href = "https://app.screenu.org/screening/5af1f17d-4277-436c-8ebc-c7936fb761c9?demo")),
+                  br(),
                   footer = NULL,
                   hairlines = F, strong = T, inset = F, tablet = FALSE)),
             )
