@@ -18,7 +18,7 @@ app_ui <- function(request) {
       f7TabLayout(
         # panels are not mandatory. These are similar to sidebars
         navbar = f7Navbar(
-          title= "ScreenU Screeners"),
+          title= "ScreenU Self-Assessment"),
 
         # f7Tabs is a special toolbar with included navigation
         f7Tabs(
@@ -34,7 +34,7 @@ app_ui <- function(request) {
                 intensity = 5,
                 hover = TRUE,
                 f7Card(
-                  f7Align(h2("Choose a screener"), side = c("center")),
+                  f7Align(h2("Choose a self-assessment"), side = c("center")),
                   br(),
                   f7Segment(container = c("segment"),
                   f7Button(label = "Alcohol", href = "https://app.screenu.org/screening/6ba7997a-d6d2-492c-8a2b-bb2841bd014d?demo"),
